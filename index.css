@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.section-header {
+    background-color: #1f2937;
+    color:white;
+    display:flex;
+    flex-direction: column;
+}
+
+.section-header-container {
+    width: 1200px;
+    margin:0 auto;
+}
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.nav-logo {
+    display:flex;
+    font-size:24px;
+    color: #f9faf8;
+    align-items: center;
+    font-weight:700;
+}
+
+.nav-links ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px
+}
+.nav-links ul li a {
+    text-decoration: none;
+    font-size:18px;
+    color: #e5e7eb;
+}
+
+.nav-header-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height:400px;
+    gap:5px;
+}
+
+.nav-header-banner-description {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.nav-header-banner-description span {
+    font-size:48px;
+    font-weight:extra-bold;
+    color:#f9Faf8;
+}
+
+.nav-header-banner-description p {
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+.nav-header-banner-description button {
+    text-align:center;
+    border-radius: 5px;
+    border-style:none;
+    background-color:#3882f6;
+    color: #e5e7eb;
+    width:100px;
+    height: 30px;
+}
+
+.nav-header-banner-image img {
+    width:600px;
+    height:300px;
+}
+
+.section-body {
+    background-color: #7baaeb;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    padding-top:20px;
+    padding-bottom:50px;
+    gap:20px;
+}
+
+.section-body-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-body-callToActions-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cta-box {
+    width:200px;
+}
+
+.cta-box img {
+    border:3px solid #3882f6;
+    border-radius:5px;
+    width:200px;
+    height:200px;
+    object-fit: fill;
+}
+
+.cta-box p {
+    text-align: center;
+}
+/*
+.nav-jumbotron {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    align-items: center;
+    height:400px;
+}
+
+.nav-intro-description {
+    max-width:300px;
+}
+
+
+.nav-intro-banner img {
+    height:250px;
+    max-width: 100%;
+    object-fit: contain;
+}*/
